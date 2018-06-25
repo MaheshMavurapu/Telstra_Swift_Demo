@@ -7,3 +7,6 @@
 //
 
 import Foundation
+
+let dropBox_Url = "https://dl.dropboxusercontent.com/s/2iodh4vg0eortkl/"
+let list_Url = dropBox_Url+"facts.json"
