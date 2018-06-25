@@ -10,6 +10,15 @@
 		3581C45F20E11327003A1E22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3581C45E20E11327003A1E22 /* AppDelegate.swift */; };
 		3581C46620E11329003A1E22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3581C46520E11329003A1E22 /* Assets.xcassets */; };
 		3581C46920E11329003A1E22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3581C46720E11329003A1E22 /* LaunchScreen.storyboard */; };
+		3581C47A20E1292E003A1E22 /* APIList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3581C47920E1292E003A1E22 /* APIList.swift */; };
+		3581C47C20E1294D003A1E22 /* GlobalWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3581C47B20E1294D003A1E22 /* GlobalWidget.swift */; };
+		3581C47E20E12971003A1E22 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3581C47D20E12971003A1E22 /* NetworkManager.swift */; };
+		3581C48020E1298D003A1E22 /* ItemListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3581C47F20E1298D003A1E22 /* ItemListViewModel.swift */; };
+		3581C48220E1299F003A1E22 /* ItemListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3581C48120E1299F003A1E22 /* ItemListModel.swift */; };
+		3581C48420E129C4003A1E22 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3581C48320E129C4003A1E22 /* ListTableViewCell.swift */; };
+		3581C48620E129EA003A1E22 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3581C48520E129EA003A1E22 /* BaseViewController.swift */; };
+		3581C48820E12A01003A1E22 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3581C48720E12A01003A1E22 /* ListViewController.swift */; };
+		3581C48A20E12A15003A1E22 /* ItemListAPICall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3581C48920E12A15003A1E22 /* ItemListAPICall.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +27,15 @@
 		3581C46520E11329003A1E22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3581C46820E11329003A1E22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3581C46A20E11329003A1E22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3581C47920E1292E003A1E22 /* APIList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIList.swift; sourceTree = "<group>"; };
+		3581C47B20E1294D003A1E22 /* GlobalWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalWidget.swift; sourceTree = "<group>"; };
+		3581C47D20E12971003A1E22 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		3581C47F20E1298D003A1E22 /* ItemListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListViewModel.swift; sourceTree = "<group>"; };
+		3581C48120E1299F003A1E22 /* ItemListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListModel.swift; sourceTree = "<group>"; };
+		3581C48320E129C4003A1E22 /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
+		3581C48520E129EA003A1E22 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		3581C48720E12A01003A1E22 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		3581C48920E12A15003A1E22 /* ItemListAPICall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListAPICall.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +83,7 @@
 		3581C47020E11810003A1E22 /* APIList */ = {
 			isa = PBXGroup;
 			children = (
+				3581C47920E1292E003A1E22 /* APIList.swift */,
 			);
 			path = APIList;
 			sourceTree = "<group>";
@@ -72,6 +91,7 @@
 		3581C47120E11820003A1E22 /* NetworkManager */ = {
 			isa = PBXGroup;
 			children = (
+				3581C47D20E12971003A1E22 /* NetworkManager.swift */,
 			);
 			path = NetworkManager;
 			sourceTree = "<group>";
@@ -79,6 +99,7 @@
 		3581C47220E11829003A1E22 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				3581C47B20E1294D003A1E22 /* GlobalWidget.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -97,6 +118,7 @@
 		3581C47420E11833003A1E22 /* APICall */ = {
 			isa = PBXGroup;
 			children = (
+				3581C48920E12A15003A1E22 /* ItemListAPICall.swift */,
 			);
 			path = APICall;
 			sourceTree = "<group>";
@@ -104,6 +126,7 @@
 		3581C47520E11833003A1E22 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				3581C47F20E1298D003A1E22 /* ItemListViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -111,6 +134,7 @@
 		3581C47620E11833003A1E22 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				3581C48120E1299F003A1E22 /* ItemListModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -119,6 +143,8 @@
 			isa = PBXGroup;
 			children = (
 				3581C47820E11833003A1E22 /* TableViewCell */,
+				3581C48520E129EA003A1E22 /* BaseViewController.swift */,
+				3581C48720E12A01003A1E22 /* ListViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -126,6 +152,7 @@
 		3581C47820E11833003A1E22 /* TableViewCell */ = {
 			isa = PBXGroup;
 			children = (
+				3581C48320E129C4003A1E22 /* ListTableViewCell.swift */,
 			);
 			path = TableViewCell;
 			sourceTree = "<group>";
@@ -200,7 +227,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3581C48420E129C4003A1E22 /* ListTableViewCell.swift in Sources */,
+				3581C47E20E12971003A1E22 /* NetworkManager.swift in Sources */,
+				3581C47A20E1292E003A1E22 /* APIList.swift in Sources */,
+				3581C48A20E12A15003A1E22 /* ItemListAPICall.swift in Sources */,
+				3581C48020E1298D003A1E22 /* ItemListViewModel.swift in Sources */,
 				3581C45F20E11327003A1E22 /* AppDelegate.swift in Sources */,
+				3581C48820E12A01003A1E22 /* ListViewController.swift in Sources */,
+				3581C48620E129EA003A1E22 /* BaseViewController.swift in Sources */,
+				3581C48220E1299F003A1E22 /* ItemListModel.swift in Sources */,
+				3581C47C20E1294D003A1E22 /* GlobalWidget.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
