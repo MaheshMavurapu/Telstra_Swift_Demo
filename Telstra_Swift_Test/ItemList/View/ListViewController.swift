@@ -8,28 +8,33 @@
 
 import UIKit
 
-class ListViewController: UIViewController {
-
+class ListViewController: BaseViewController { // Inheritance
+    
+    // MARK:- Properties
+    var tableView: UITableView!
+    var activityIndicatorView: UIActivityIndicatorView!
+    var itemsList = [ItemListModel]() // Fetched Items List
+    var refreshControl: UIRefreshControl!
+    var itemListViewModel: ItemListViewModel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        itemListViewModel = ItemListViewModel()
+        itemListViewModel.sendListViewController(toViewModel: self)
+        // Creating View and Model as ViewModel reference.
     }
-
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        itemListViewModel.addTableView()
+        // Adding TableView programmatically - Not using IB.
+        if itemListViewModel.listViewController?.itemsList.count == 0 {
+            itemListViewModel.fetchDetails()
+        }
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }
