@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		35766F3520E27535001A5AEF /* Telstra_Swift_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35766F3420E27535001A5AEF /* Telstra_Swift_TestTests.swift */; };
 		3581C45F20E11327003A1E22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3581C45E20E11327003A1E22 /* AppDelegate.swift */; };
 		3581C46620E11329003A1E22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3581C46520E11329003A1E22 /* Assets.xcassets */; };
 		3581C46920E11329003A1E22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3581C46720E11329003A1E22 /* LaunchScreen.storyboard */; };
@@ -21,7 +22,20 @@
 		3581C48A20E12A15003A1E22 /* ItemListAPICall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3581C48920E12A15003A1E22 /* ItemListAPICall.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		35766F3720E27535001A5AEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3581C45320E11326003A1E22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3581C45A20E11327003A1E22;
+			remoteInfo = Telstra_Swift_Test;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		35766F3220E27535001A5AEF /* Telstra_Swift_TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Telstra_Swift_TestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		35766F3420E27535001A5AEF /* Telstra_Swift_TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Telstra_Swift_TestTests.swift; sourceTree = "<group>"; };
+		35766F3620E27535001A5AEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3581C45B20E11327003A1E22 /* Telstra_Swift_Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Telstra_Swift_Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3581C45E20E11327003A1E22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3581C46520E11329003A1E22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -39,6 +53,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		35766F2F20E27535001A5AEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3581C45820E11327003A1E22 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -49,10 +70,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		35766F3320E27535001A5AEF /* Telstra_Swift_TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				35766F3420E27535001A5AEF /* Telstra_Swift_TestTests.swift */,
+				35766F3620E27535001A5AEF /* Info.plist */,
+			);
+			path = Telstra_Swift_TestTests;
+			sourceTree = "<group>";
+		};
 		3581C45220E11326003A1E22 = {
 			isa = PBXGroup;
 			children = (
 				3581C45D20E11327003A1E22 /* Telstra_Swift_Test */,
+				35766F3320E27535001A5AEF /* Telstra_Swift_TestTests */,
 				3581C45C20E11327003A1E22 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -61,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				3581C45B20E11327003A1E22 /* Telstra_Swift_Test.app */,
+				35766F3220E27535001A5AEF /* Telstra_Swift_TestTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -160,6 +192,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		35766F3120E27535001A5AEF /* Telstra_Swift_TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35766F3B20E27535001A5AEF /* Build configuration list for PBXNativeTarget "Telstra_Swift_TestTests" */;
+			buildPhases = (
+				35766F2E20E27535001A5AEF /* Sources */,
+				35766F2F20E27535001A5AEF /* Frameworks */,
+				35766F3020E27535001A5AEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35766F3820E27535001A5AEF /* PBXTargetDependency */,
+			);
+			name = Telstra_Swift_TestTests;
+			productName = Telstra_Swift_TestTests;
+			productReference = 35766F3220E27535001A5AEF /* Telstra_Swift_TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		3581C45A20E11327003A1E22 /* Telstra_Swift_Test */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3581C46D20E11329003A1E22 /* Build configuration list for PBXNativeTarget "Telstra_Swift_Test" */;
@@ -187,6 +237,10 @@
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "Mahesh Mavurapu";
 				TargetAttributes = {
+					35766F3120E27535001A5AEF = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 3581C45A20E11327003A1E22;
+					};
 					3581C45A20E11327003A1E22 = {
 						CreatedOnToolsVersion = 9.4;
 					};
@@ -206,11 +260,19 @@
 			projectRoot = "";
 			targets = (
 				3581C45A20E11327003A1E22 /* Telstra_Swift_Test */,
+				35766F3120E27535001A5AEF /* Telstra_Swift_TestTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		35766F3020E27535001A5AEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3581C45920E11327003A1E22 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -223,6 +285,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		35766F2E20E27535001A5AEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35766F3520E27535001A5AEF /* Telstra_Swift_TestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3581C45720E11327003A1E22 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -242,6 +312,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		35766F3820E27535001A5AEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3581C45A20E11327003A1E22 /* Telstra_Swift_Test */;
+			targetProxy = 35766F3720E27535001A5AEF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		3581C46720E11329003A1E22 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -254,6 +332,44 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		35766F3920E27535001A5AEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Telstra_Swift_TestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iOSMahesha.Telstra-Swift-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Telstra_Swift_Test.app/Telstra_Swift_Test";
+			};
+			name = Debug;
+		};
+		35766F3A20E27535001A5AEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Telstra_Swift_TestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iOSMahesha.Telstra-Swift-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Telstra_Swift_Test.app/Telstra_Swift_Test";
+			};
+			name = Release;
+		};
 		3581C46B20E11329003A1E22 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -405,6 +521,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		35766F3B20E27535001A5AEF /* Build configuration list for PBXNativeTarget "Telstra_Swift_TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35766F3920E27535001A5AEF /* Debug */,
+				35766F3A20E27535001A5AEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		3581C45620E11326003A1E22 /* Build configuration list for PBXProject "Telstra_Swift_Test" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
