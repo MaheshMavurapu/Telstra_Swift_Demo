@@ -12,7 +12,7 @@ import UIKit
 class ItemListViewModel: NSObject {
     
     // MARK:- Properties
-    var listViewController: ListViewController!
+    public var listViewController: ListViewController!
     var itemListAPICall: ItemListAPICall? // API Call
     var cellIdentifier = "ItemTableViewCell" // Cell Identifier
     
@@ -142,7 +142,9 @@ extension ItemListViewModel : UITableViewDataSource, UITableViewDelegate {
         cell?.titleLabel?.text = ""
         cell?.descriptionLabel?.text = ""
         cell?.itemImageView?.image = nil
-        cell?.setDetails(listViewController?.itemsList[indexPath.row])
+        if (listViewController?.itemsList.count)! > 0 {
+            cell?.setDetails(listViewController?.itemsList[indexPath.row])
+        }
         return cell!
     }
     
